@@ -1,0 +1,20 @@
+.newsletter {
+background: #ebebeb;
+
+    &__title {
+        font-size: 30px;
+        font-family: $Open-sans;
+        color: #0b1a26;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 32px;
+    }
+
+    &__text {
+        font-size: 16px;
+        font-family: $Open-sans;
+        color: #3a3937;
+        font-style: italic;
+        margin-bottom: 33px;
+    }
+}
