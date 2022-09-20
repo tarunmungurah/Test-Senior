@@ -1,8 +1,13 @@
 .top-nav {
     background: $black;
+    height: 31px;
 
     &__link {
         color: $white;
+    }
+
+    .top-nav__menu{
+        display: flex;
     }
                
 }

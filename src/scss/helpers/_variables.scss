@@ -27,4 +27,9 @@ $white: map-get($colors, white);
 $black: map-get($colors, black);
 $primary-color: map-get($colors, primary-color);
 
+
 $regular: map-get($font-weight, regular);
+$bold: map-get($font-weight, bold);
+
+
+$Open-sans: 'Open Sans', sans-serif;
