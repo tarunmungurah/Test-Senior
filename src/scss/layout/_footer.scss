@@ -1,3 +1,35 @@
-.footer {
+.footers{
+    background: $black;
 
+    &__logo{
+        width: 137px;
+        height: 43px;
+        margin-bottom: 33px;
+    }
+
+    &__info{
+        color: #959595;
+        font-size: 14px;
+    }
 }
+
+
+.footers a {color:#696969;}
+
+
+#social-fb:hover {
+     color: #3B5998;
+     transition:all .001s;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+     transition:all .001s;
+ }
+ #social-gp:hover {
+     color: #d34836;
+     transition:all .001s;
+ }
+ #social-em:hover {
+     color: #f39c12;
+     transition:all .001s;
+ }

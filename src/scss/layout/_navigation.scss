@@ -4,10 +4,15 @@
 
     &__link {
         color: $white;
+        margin-left: 14px;
+        margin-right: 14px;
+        
     }
 
     .top-nav__menu{
         display: flex;
+        justify-content: flex-end;
     }
+
                
 }
