@@ -11,11 +11,12 @@ h1 {
 }
 
 h2 {
-  margin: 0;
-
+ 
+  margin-bottom: 32px;
   @include media-breakpoint-up(lg) {
-    @include font-size-custom(65px);
-    line-height: 75px;
+    @include font-size-custom(30px);
+    font-weight: $bold;
+    line-height: 22px;
   }
 
 }

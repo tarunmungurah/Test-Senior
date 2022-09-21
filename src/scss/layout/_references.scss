@@ -3,7 +3,7 @@
     padding: 52px 0 75px 0;
     background: url("../images/ref-bg.jpg");
     width: 100%;
-    height: 604px;
+    height:auto;
     background-size: cover;
 
     &__title {
@@ -14,6 +14,7 @@
         font-weight: $bold;
         margin: 0 0 29px 0;
     }
+
     &__subtitle {
         font-family: $Open-sans;
         color: $white;
@@ -25,18 +26,23 @@
         font-family: $Open-sans;
         color: $primary-color;
         font-size: 24px;
-        margin-bottom: 26px;
+        padding: 0 0 26px 23px;
     }
 
     &__card-text {
         font-family: $Open-sans;
         color: #3a3937;
         font-size: 16px;
-        margin-bottom: 52px;
+       padding: 0 0 50px 23px;
     }
 
     .card-img-top {
         height: 235px;
-        object-fit: cover;
+        margin-bottom: 20px; 
+    }
+
+    .card{
+        background-color: $white;
+      
     }
 }

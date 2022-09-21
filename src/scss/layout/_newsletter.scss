@@ -1,20 +1,28 @@
 .newsletter {
-background: #ebebeb;
+    padding: 62px 0 130px 0;
+    background: #ebebeb;
 
     &__title {
-        font-size: 30px;
         font-family: $Open-sans;
         color: #0b1a26;
-        font-weight: bold;
         text-transform: uppercase;
         margin-bottom: 32px;
     }
 
-    &__text {
+    &__subtitle {
         font-size: 16px;
         font-family: $Open-sans;
         color: #3a3937;
         font-style: italic;
         margin-bottom: 33px;
     }
+
+    .form-control {
+        max-width: 521px;
+        height: 43px;
+        border-radius: 0;
+        margin-bottom: 16px;
+    }
+
+   
 }

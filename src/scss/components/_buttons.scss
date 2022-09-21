@@ -1,12 +1,19 @@
 .btn {
-    
     text-align: center;
     font-size: 14px;
-    font-weight: $bold;
     text-decoration: none;
+    font-family: $Open-sans;
 }
 
 .btn-primary {
     color: $primary-color;
-   
+    font-weight: $bold;
+}
+
+.btn-contact {
+    background-color: #7fb618;
+    color: $white;
+    padding: 10px 84px;
+    border-radius: 15px;
+    text-transform: uppercase;
 }
