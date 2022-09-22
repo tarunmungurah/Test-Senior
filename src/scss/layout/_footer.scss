@@ -1,5 +1,6 @@
 .footers{
     background: $black;
+    padding: 57px 0 88px 0;
 
     &__logo{
         width: 137px;
@@ -11,10 +12,11 @@
         color: #959595;
         font-size: 14px;
     }
+
 }
 
 
-.footers a {color:#696969;}
+/**.footers a {color:#696969;} **/
 
 
 #social-fb:hover {
