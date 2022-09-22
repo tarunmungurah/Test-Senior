@@ -5,11 +5,8 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 .heading {
-
     padding: 151px 0 261px 0;
-
     &__title {
         font-family: $Open-sans;
         font-size: 72px;
@@ -17,15 +14,12 @@
         margin-bottom: 35px;
         font-weight: bold;
     }
-
     &__subtitle {
         font-size: 18px;
         font-family: $Open-sans;
         color: $white;
     }
 }
-
-
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -33,16 +27,12 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     height: 80px;
-
 }
-
 nav ul {
     display: flex;
     margin-bottom: 0;
-
     li {
         display: inline-block;
-
         a {
             display: flex;
             font-size: 18px;
@@ -54,24 +44,19 @@ nav ul {
         }
     }
 }
-
-
 .logo-img {
     width: 137px;
     height: 43px;
 }
-
 .active,
 a:hover {
     background-color: #4ec1e0;
     transition: .5s;
     border-radius: 10px;
 }
-
 .fas {
     display: none;
 }
-
 .checkbtn {
     font-size: 30px;
     color: white;
@@ -80,44 +65,35 @@ a:hover {
     margin-right: 40px;
     display: none;
 }
-
 #check {
     display: none;
 }
-
 @media (max-width: 858px) {
     label.logo {
         font-size: 30px;
         padding: 20px;
     }
-
     nav ul {
         position: absolute;
         display: none;
         left: 0;
         top: 80px;
-
         li a {
             font-size: 16px;
         }
-
     }
-
     nav .showing {
         display: block;
         height: auto;
     }
-
     .fas {
         display: block;
     }
 }
-
 @media (max-width: 858px) {
     .checkbtn {
         display: block;
     }
-
     ul {
         position: fixed;
         width: 100%;
@@ -129,27 +105,22 @@ a:hover {
         transition: all .5s;
         z-index: 4;
     }
-
     nav ul li {
         display: block;
         margin: 50px 0;
         line-height: 30px;
     }
-
     nav ul li a {
         font-size: 20px;
     }
-
     a:hover,
     a.active {
         background: none;
         color: #4ec1e0;
     }
-
     #check:checked~ul {
         left: 0;
     }
-
     nav ul li a::after {
         display: none;
     }

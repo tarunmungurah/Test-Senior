@@ -1,37 +1,41 @@
-.footers{
+.footers {
     background: $black;
     padding: 57px 0 88px 0;
-
-    &__logo{
+    &__logo {
         width: 137px;
         height: 43px;
         margin-bottom: 33px;
     }
-
-    &__info{
+    &__info {
         color: #959595;
         font-size: 14px;
     }
-
+    &__contact {
+        color: $white;
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    &__address {
+        color: #636464;
+        font-size: 14px;
+        margin-bottom: 38px;
+    }
+    &__number {
+        color: #636464;
+        font-size: 14px;
+    }
+    &__email {
+        color: $primary-color;
+        font-size: 14px;
+    }
 }
-
-
-/**.footers a {color:#696969;} **/
-
-
-#social-fb:hover {
-     color: #3B5998;
-     transition:all .001s;
- }
- #social-tw:hover {
-     color: #4099FF;
-     transition:all .001s;
- }
- #social-gp:hover {
-     color: #d34836;
-     transition:all .001s;
- }
- #social-em:hover {
-     color: #f39c12;
-     transition:all .001s;
- }
+.footers {
+    li {
+        margin-bottom: 26px;
+        a {
+            color: #696969;
+            font-size: 16px;
+            text-decoration: none;
+        }
+    }
+}
