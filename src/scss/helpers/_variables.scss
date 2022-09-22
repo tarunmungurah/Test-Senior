@@ -1,7 +1,8 @@
 $colors: (
   white: #ffffff,
   black: #000000,
-  primary-color: #4ec1e0
+  blue: #4ec1e0,
+  grey: #959595
 );
 
 $size: ( 
@@ -25,7 +26,8 @@ $textarea-btn-radius: map-get($size, textarea-btn-radius);
 
 $white: map-get($colors, white);
 $black: map-get($colors, black);
-$primary-color: map-get($colors, primary-color);
+$blue: map-get($colors, blue);
+$grey: map-get($colors, grey);
 
 $regular: map-get($font-weight, regular);
 $bold: map-get($font-weight, bold);
