@@ -36,10 +36,11 @@
 @import 'layout/footer';
 @import 'layout/sidebar';
 @import 'layout/navigation';
-@import 'layout/services';
-@import 'layout/references';
-@import 'layout/latest-news';
-@import 'layout/newsletter';
 
+/* Block */
+@import 'block/latest-news';
+@import 'block/newsletter';
+@import 'block/references';
+@import 'block/services';
 
 

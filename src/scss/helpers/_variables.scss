@@ -2,7 +2,13 @@ $colors: (
   white: #ffffff,
   black: #000000,
   blue: #4ec1e0,
-  grey: #959595
+  grey: #959595,
+  lima: #7fb618,
+  tundora: #4d4d4d,
+  tuatara: #3a3937,
+  orient: #01567d,
+  firefly: #0b1a26,
+  gallery: #EBEBEB
 );
 
 $size: ( 
@@ -28,6 +34,17 @@ $white: map-get($colors, white);
 $black: map-get($colors, black);
 $blue: map-get($colors, blue);
 $grey: map-get($colors, grey);
+$lima: map-get($colors, lima);
+$tundora: map-get($colors, tundora);
+$tuatara: map-get($colors, tuatara);
+$orient: map-get($colors, orient);
+$firefly: map-get($colors, firefly);
+$gallery: map-get($colors, gallery);
+
+
+
+
+
 
 $regular: map-get($font-weight, regular);
 $bold: map-get($font-weight, bold);

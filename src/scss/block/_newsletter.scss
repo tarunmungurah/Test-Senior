@@ -1,16 +1,16 @@
 .newsletter {
     padding: 62px 0 130px 0;
-    background: #ebebeb;
+    background: $gallery;
     &__title {
         font-family: $Open-sans;
-        color: #0b1a26;
+        color: $firefly;
         text-transform: uppercase;
         margin-bottom: 32px;
     }
     &__subtitle {
         font-size: 16px;
         font-family: $Open-sans;
-        color: #3a3937;
+        color: $tuatara;
         font-style: italic;
         margin-bottom: 33px;
     }
