@@ -1,10 +1,15 @@
 .top-nav {
     background: $black;
     height: 31px;
+    
     &__link {
         color: $white;
-        margin-left: 14px;
-        margin-right: 14px;
+        margin-right: 11px;
+        margin-right: 11px;
+        border-left: 1px solid red;
+        
+        text-decoration: none;    
+        padding: 0 11px 0 11px;   
     }
     .top-nav__menu{
         display: flex;

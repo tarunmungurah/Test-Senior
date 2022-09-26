@@ -24,7 +24,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: $Open-sans;
     font-size: 14px;
     height: 80px;
 }
@@ -38,12 +38,12 @@ nav ul {
             font-size: 18px;
             text-decoration: none;
             align-items: center;
-            color: #ffffff;
+            color: $white;
             margin-right: 25px;
             margin-left: 19px;
         }
         
-    }
+    }   
 }
 .logo-img {
     width: 137px;
@@ -51,7 +51,7 @@ nav ul {
 }
 .active,
 a:hover {
-    background-color: #4ec1e0;
+    background-color: $blue;
     transition: .5s;
     border-radius: 10px;
 }
@@ -60,7 +60,7 @@ a:hover {
 }
 .checkbtn {
     font-size: 30px;
-    color: white;
+    color: $white;
     float: right;
     line-height: 80px;
     margin-right: 40px;
@@ -117,7 +117,7 @@ a:hover {
     a:hover,
     a.active {
         background: none;
-        color: #4ec1e0;
+        color: $blue;
     }
     #check:checked~ul {
         left: 0;
