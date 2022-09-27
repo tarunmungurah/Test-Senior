@@ -1,13 +1,15 @@
-.tablet {
+.latest-news {
     background: url("../images/news-bg.jpg");
     width: 100%;
-    height: 418px;
     background-size: cover;
+   
+
     &__img {
         height: 418px;
         background-size: auto;
     }
 }
+
 .news {
     &__title {
         font-family: $Open-sans;
@@ -15,6 +17,7 @@
         font-size: 36px;
         margin-bottom: 61px;
     }
+
     &__subtitle {
         font-family: $Open-sans;
         color: $grey;
