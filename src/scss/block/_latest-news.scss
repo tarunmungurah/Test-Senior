@@ -2,15 +2,24 @@
     background: url("../images/news-bg.jpg");
     width: 100%;
     background-size: cover;
+    
    
-
     &__img {
         height: 418px;
         background-size: auto;
     }
+
+
+    @include media-breakpoint-up(lg) {
+        font-size: 18px;
+        
+    }
 }
 
 .news {
+
+
+    
     &__title {
         font-family: $Open-sans;
         color: $blue;
