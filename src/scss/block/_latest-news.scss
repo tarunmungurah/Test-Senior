@@ -2,24 +2,14 @@
     background: url("../images/news-bg.jpg");
     width: 100%;
     background-size: cover;
-    
-   
     &__img {
         height: 418px;
         background-size: auto;
-    }
-
-
-    @include media-breakpoint-up(lg) {
-        font-size: 18px;
-        
     }
 }
 
 .news {
 
-
-    
     &__title {
         font-family: $Open-sans;
         color: $blue;
@@ -30,7 +20,14 @@
     &__subtitle {
         font-family: $Open-sans;
         color: $grey;
-        font-size: 16px;
+        font-size: 13px;
         margin-bottom: 53px;
+
+        @include media-breakpoint-up(lg) {
+            font-size: 16px;
+        margin-bottom: 53px;
+            
+        }
+       
     }
 }
