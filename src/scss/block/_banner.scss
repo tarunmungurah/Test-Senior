@@ -1,0 +1,28 @@
+.banner {
+    padding: 151px 0 261px 0;
+
+    &__title {
+        font-family: $Open-sans;
+        font-size: 35px;
+        color: $white;
+        margin-bottom: 20px;
+        font-weight: 700;
+
+        @include media-breakpoint-up(lg) {
+            font-size: 72px;
+            margin-bottom: 35px;
+        }
+    }
+
+    &__subtitle {
+        font-size: 15px;
+        font-family: $Open-sans;
+        color: $white;
+
+        @include media-breakpoint-up(lg) {
+            font-size: 18px;
+            
+        }
+       
+    }
+}
