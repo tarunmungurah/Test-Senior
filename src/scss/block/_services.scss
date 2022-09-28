@@ -56,12 +56,12 @@
         position: relative;
         border: 1px solid $blue;
         border-radius: 50%;
-        padding: 60px 33px 46px 33px;
+        padding: 60px 0px 46px 0px;
        margin-bottom: 50px;
 
         @include media-breakpoint-up(lg) {
             margin-bottom: 0;
-           
+            padding: 60px 33px 46px 33px;
         }
 
     }
