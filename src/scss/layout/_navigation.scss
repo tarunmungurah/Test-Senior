@@ -1,36 +1,23 @@
-.top-nav {
+a {
+    color: $white;
+    text-decoration: none;
+    margin-right: 8px;
+}
+header {
     background: $black;
-    height: 31px;
-
-    &__menu {
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        height: 100%;
-    }
-
-    &__list{
-        display: flex;
-        align-items: center;
-        position: relative;  
-        height: 100%;
-
-        &:after {
-            content: '';
-            width: 1px;
-            height: 100%;
-            background: red;
-            display: inline-block;
-            position: absolute;
-            top: 0;
-            right: 0;
-        }
-    }
-
-    &__link {
+}
+.top-nav {
+    display: flex;
+    justify-content: flex-end;
+    &__list {
         color: $white;
-        text-decoration: none;    
-        padding: 0 24px 0 24px;   
+        list-style: none;
+        display: inline-block;
+        border-right: 1px solid $tundora;
+        margin-left: 10px;
+    }
+    &__list1 {
+        border-left: 1px solid $tundora;
+        border-right: 1px solid $tundora;
     }
 }
-
