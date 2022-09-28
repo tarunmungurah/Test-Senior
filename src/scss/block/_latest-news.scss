@@ -10,6 +10,8 @@
 
 .news {
 
+padding: 0 32px;
+
     &__title {
         font-family: $Open-sans;
         color: $blue;
@@ -23,7 +25,6 @@
         color: $grey;
         font-size: 13px;
         margin-bottom: 53px;
-      
 
         @include media-breakpoint-up(lg) {
             font-size: 16px;

@@ -17,6 +17,7 @@
 
 .menu {
     display: none;
+    margin-top: 65px;
 
     @include media-breakpoint-up(lg) {
         display: flex;
@@ -52,7 +53,7 @@
         height: 50vh;
         display: inline-grid;
         background: $black;
-        padding-top: 25px ;
+        padding-top: 25px;
 
 
         a:hover {
@@ -67,6 +68,7 @@
 
 .logo {
     flex-shrink: 0;
+    margin-top: 65px;
 
     &__img {
         width: 137px;
@@ -77,6 +79,7 @@
 .fas {
     display: none;
     color: $white;
+    margin-top: 65px;
 }
 
 .checkbtn {
@@ -91,7 +94,6 @@
 .burger-menu {
     position: relative;
     z-index: 2;
-
 
     @include media-breakpoint-up(lg) {
         display: none;
