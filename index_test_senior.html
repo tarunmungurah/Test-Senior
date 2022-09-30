@@ -30,12 +30,17 @@
     </header>
     <!--/top bar  -->
     <!-- navbar  -->
-    <div class="bg-img">
+    <!-- <div class="bg-img"> -->
+        <picture >
+            <source media="(min-width: 650px)" srcset="/dist/images/dog.jpg">
+            <source media="(min-width: 430px)" srcset="/dist/images/dog.jpg">
+            <img src="/dist/images/dog.jpg">
+      
         <nav>
             <div class="container">
                 <div class="nav-container">
                     <a href="" class="logo">
-                        <img src="dist/images/esokia_logo.png" class="logo__img" width="137" height="43">
+                        <img src="dist/images/esokia_logo.png" class="logo__img">
                     </a>
                     <ul class="menu">
                         <li><a href="#">Esokia</a></li>
@@ -52,7 +57,7 @@
                 </div>
             </div>
         </nav>
-        <div class="phone">
+        <div class="dog">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
@@ -66,7 +71,8 @@
                 </div>
             </div>
         </div>
-    </div>
+    
+</picture>
     <div class="triangle-down"></div>
     <!-- /navbar  -->
     <!-- services -->
@@ -190,7 +196,12 @@
         <div class="container-full">
             <div class="row g-0">
                 <div class="col-lg-6">
-                    <img src="dist/images/latest-news.png" class="tablet__img" />
+                    <picture >
+                        <source media="(min-width: 650px)" srcset="/dist/images/latest-news.png">
+                        <source media="(min-width: 430px)" srcset="/dist/images/latest-news.png">
+                        <img src="/dist/images/latest-news.png" class="tablet__img">
+                    </picture>
+                    <!-- <img src="dist/images/latest-news.png" class="tablet__img" /> -->
                 </div>
                 <div class="col-lg-6">
                     <div class="news">

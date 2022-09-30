@@ -1,12 +1,12 @@
-.bg-img {
-    background: url('../images/dog.jpg');
-    max-width: 100%;
-    height: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-bottom: 5px solid $blue;
+// .bg-img {
+//     background: url('../images/dog.jpg');
+//     max-width: 100%;
+//     height: auto;
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     border-bottom: 5px solid $blue;
 
-}
+// }
 
 .triangle-down {
     margin-left: 50%;
@@ -25,6 +25,14 @@
     font-family: $Open-sans;
     font-size: 14px;
     height: 80px;
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 4;
+    
 }
 
 .menu {
@@ -40,6 +48,8 @@
             background-color: $blue;
             transition: .5s;
             border-radius: 10px;
+            padding: 10px;
+            
         }
     }
 
@@ -71,6 +81,7 @@
             background-color: $blue;
             transition: .5s;
             border-radius: 10px;
+            
         }
     }
 }
@@ -108,3 +119,7 @@
         display: none;
     }
 }
+
+
+
+
