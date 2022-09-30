@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,9 +10,9 @@
     <link href="dist/css/main.min.css" rel="stylesheet">
     <title>Test Senior</title>
 </head>
-
 <body>
     <header>
+        <div class="header-top">
         <div class="container">
             <div class="top-nav">
                 <li class="top-nav__list1">
@@ -27,15 +26,7 @@
                 </li>
             </div>
         </div>
-    </header>
-    <!--/top bar  -->
-    <!-- navbar  -->
-    <!-- <div class="bg-img"> -->
-        <picture >
-            <source media="(min-width: 650px)" srcset="/dist/images/dog.jpg">
-            <source media="(min-width: 430px)" srcset="/dist/images/dog.jpg">
-            <img src="/dist/images/dog.jpg">
-      
+    </div>
         <nav>
             <div class="container">
                 <div class="nav-container">
@@ -57,22 +48,26 @@
                 </div>
             </div>
         </nav>
-        <div class="dog">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="banner">
-                            <h1 class="banner__title">L’agence digitale <br> offshore</h1>
-                            <p class="banner__subtitle">Nous développons pour vous le concept
-                                de “boutique digitale”<br> en vous proposant une
-                                offre sur measure</p>
-                        </div>
+    </header>
+    <div class="dog">
+        <picture>
+            <source media="(min-width: 650px)" srcset="/dist/images/dog.jpg">
+            <source media="(min-width: 430px)" srcset="/dist/images/dog.jpg">
+            <img src="/dist/images/dog.jpg">
+        </picture>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="banner">
+                        <h1 class="banner__title">L’agence digitale <br> offshore</h1>
+                        <p class="banner__subtitle">Nous développons pour vous le concept
+                            de “boutique digitale”<br> en vous proposant une
+                            offre sur measure</p>
                     </div>
                 </div>
             </div>
         </div>
-    
-</picture>
+    </div>
     <div class="triangle-down"></div>
     <!-- /navbar  -->
     <!-- services -->
@@ -196,10 +191,10 @@
         <div class="container-full">
             <div class="row g-0">
                 <div class="col-lg-6">
-                    <picture >
+                    <picture>
                         <source media="(min-width: 650px)" srcset="/dist/images/latest-news.png">
                         <source media="(min-width: 430px)" srcset="/dist/images/latest-news.png">
-                        <img src="/dist/images/latest-news.png" class="tablet__img">
+                        <img src="/dist/images/latest-news.png" class="latest-news__img">
                     </picture>
                     <!-- <img src="dist/images/latest-news.png" class="tablet__img" /> -->
                 </div>
@@ -305,5 +300,4 @@
     <script src="src/js/jquery-3.5.1.js"></script>
     <script src="src/js/main.js"></script>
 </body>
-
 </html>

@@ -1,37 +1,30 @@
 .banner {
     padding: 151px 0 261px 0;
-   
     position: absolute;
     top: 0;
    // left: 0;
     bottom: 0;
   //  right: 0;
     margin: auto;
-    z-index: 4;
-
+    z-index: 1;
     &__title {
         font-family: $Open-sans;
         font-size: 35px;
         color: $white;
+        margin-top: 167px;
         margin-bottom: 20px;
         font-weight: 700;
-        //  text-align: center;
-
         @include media-breakpoint-up(lg) {
             font-size: 72px;
             margin-bottom: 35px;
         }
     }
-
     &__subtitle {
         font-size: 15px;
         font-family: $Open-sans;
         color: $white;
-
         @include media-breakpoint-up(lg) {
             font-size: 18px;
-
         }
-
     }
 }

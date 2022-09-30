@@ -3,12 +3,23 @@ a {
     text-decoration: none;
     margin-right: 8px;
 }
-header {
+
+header{
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left: 0;
+}
+
+.header-top {
     background: $black;
 }
+
 .top-nav {
+
     display: flex;
     justify-content: flex-end;
+
     &__list {
         color: $white;
         list-style: none;
@@ -16,6 +27,7 @@ header {
         border-right: 1px solid $tundora;
         margin-left: 10px;
     }
+
     &__list1 {
         border-left: 1px solid $tundora;
         border-right: 1px solid $tundora;

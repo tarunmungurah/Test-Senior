@@ -1,12 +1,4 @@
-// .bg-img {
-//     background: url('../images/dog.jpg');
-//     max-width: 100%;
-//     height: auto;
-//     background-size: cover;
-//     background-repeat: no-repeat;
-//     border-bottom: 5px solid $blue;
 
-// }
 
 .triangle-down {
     margin-left: 50%;
@@ -16,46 +8,30 @@
     border-right: 5px solid transparent;
     border-top: 10px solid $blue;
 }
-
-
 .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: $Open-sans;
     font-size: 14px;
-    height: 80px;
-  
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: 4;
     
 }
-
 .menu {
     display: none;
     margin-top: 65px;
-
     @include media-breakpoint-up(lg) {
         display: flex;
         margin-bottom: 0;
-
         .active,
         a:hover {
             background-color: $blue;
             transition: .5s;
             border-radius: 10px;
-            padding: 10px;
-            
+           // padding: 10px;
         }
     }
-
     li {
         display: inline-block;
-
         a {
             display: flex;
             font-size: 18px;
@@ -66,7 +42,6 @@
             margin-left: 19px;
         }
     }
-
     .showing & {
         position: fixed;
         top: 0;
@@ -76,32 +51,26 @@
         display: inline-grid;
         background: $black;
         padding-top: 25px;
-
         a:hover {
             background-color: $blue;
             transition: .5s;
             border-radius: 10px;
-            
         }
     }
 }
-
 .logo {
     flex-shrink: 0;
     margin-top: 65px;
-
     &__img {
         width: 137px;
         height: 43px;
     }
 }
-
 .fas {
     display: none;
     color: $white;
     margin-top: 65px;
 }
-
 .checkbtn {
     font-size: 30px;
     color: $white;
@@ -110,16 +79,10 @@
     margin-right: 40px;
     display: none;
 }
-
 .burger-menu {
     position: relative;
     z-index: 2;
-
     @include media-breakpoint-up(lg) {
         display: none;
     }
 }
-
-
-
-
