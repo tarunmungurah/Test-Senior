@@ -9,6 +9,12 @@ header{
    width: 100%;
    top: 0;
    left: 0;
+  z-index: 4;
+}
+
+header.sticky{
+    padding: 5px 100px;
+    background: $black;
 }
 
 .header-top {
