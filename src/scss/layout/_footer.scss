@@ -39,9 +39,11 @@
         }
     }
     &__list1 {
-        padding-left: 60px;
+        padding: 0 10% 0 20%; 
     }
 
-   
+    &__list2 {
+        padding: 0 10% 0 5%; 
+    }
  
 }
