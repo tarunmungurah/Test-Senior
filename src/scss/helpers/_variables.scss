@@ -9,7 +9,8 @@ $colors: (
   orient: #01567d,
   firefly: #0b1a26,
   gallery: #EBEBEB,
-  dove-gray: #696969
+  dove-gray: #696969,
+  woodsmoke: #161b1d
 );
 
 $size: ( 
@@ -42,6 +43,9 @@ $orient: map-get($colors, orient);
 $firefly: map-get($colors, firefly);
 $gallery: map-get($colors, gallery);
 $dove-gray: map-get($colors, dove-gray);
+$woodsmoke: map-get($colors, woodsmoke);
+
+
 
 
 

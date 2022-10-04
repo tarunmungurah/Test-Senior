@@ -1,5 +1,5 @@
 .footers {
-    background: $black;
+    background: $woodsmoke;
     padding: 57px 0 88px 0;
     &__logo {
         width: 137px;
@@ -31,11 +31,17 @@
 }
 .footers {
     li {
-        margin-bottom: 26px;
+        margin-bottom: 16px;
         a {
             color: $dove-gray;
             font-size: 16px;
             text-decoration: none;
         }
     }
+    &__list1 {
+        padding-left: 60px;
+    }
+
+   
+ 
 }
