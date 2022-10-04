@@ -30,6 +30,14 @@
 
     @include media-breakpoint-up(lg) {
         margin-bottom: 0;
+        width: 200px;
+        height: 200px;
+    }
+
+    @include media-breakpoint-up(xl) {
+        margin-bottom: 0;
+        width: 262px;
+        height: 262px;
     }
 
     &__type {
@@ -39,6 +47,18 @@
         margin-bottom: 18px;
         font-weight: $bold;
         margin-top: 62px;
+
+        @include media-breakpoint-up(lg) {
+            font-size: 16px;
+            margin-bottom: 18px;
+            margin-top: 30px;
+        }
+
+        @include media-breakpoint-up(xl) {
+            font-size: 18px;
+            margin-bottom: 34px;
+            margin-top: 50px;
+        }
     }
 
     &__text {
@@ -46,6 +66,16 @@
         font-family: $Open-sans;
         color: $tuatara;
         margin-bottom: 43px;
+
+        @include media-breakpoint-up(lg) {
+            font-size: 12px;
+            margin-bottom: 15px;
+        }
+
+        @include media-breakpoint-up(xl) {
+            font-size: 14px;
+            margin-bottom: 43px;
+        }
     }
 
     &__icons {
@@ -65,4 +95,6 @@
         right: 0;
         margin: 0 auto;
     }
+
+    @include media-breakpoint-up(lg) {}
 }
