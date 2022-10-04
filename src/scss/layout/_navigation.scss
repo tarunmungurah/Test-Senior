@@ -19,6 +19,7 @@ header {
 .top-nav {
     display: flex;
     justify-content: flex-end;
+    font-size: 15px;
 
     &__list {
         color: $white;

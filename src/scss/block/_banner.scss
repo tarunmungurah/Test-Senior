@@ -24,6 +24,11 @@
 
     .banner-text {
         position: relative;
+        bottom: 50px;
+
+        @include media-breakpoint-up(lg) {
+            bottom: 0;
+        }
 
         &__title {
             font-family: $Open-sans;
