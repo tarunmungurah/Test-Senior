@@ -5,10 +5,16 @@ nav {
     left: 0;
     z-index: 4;
 
-    &.sticky {
-        padding: 5px 100px;
-        background: $black;
-    }
+    // &.sticky {
+    //  //   padding: 5px 100px;
+    //     background: $black;
+    // }
+}
+
+
+.sticky{
+    background: $black;
+    padding: 10px 0;
 }
 
 .nav-container {
@@ -23,6 +29,10 @@ nav {
     display: none;
     margin-top: 65px;
 
+    .sticky & {
+        margin-top: 0;
+    }
+
     @include media-breakpoint-up(lg) {
         display: flex;
         margin-bottom: 0;
@@ -32,7 +42,8 @@ nav {
             background-color: $blue;
             transition: .5s;
             border-radius: 10px;
-            // padding: 10px;
+            padding: 10px;
+            display: inline;
         }
     }
 
@@ -72,6 +83,10 @@ nav {
     flex-shrink: 0;
     margin-top: 65px;
 
+    .sticky & {
+        margin-top: 0;
+    }
+
     &__img {
         width: 137px;
         height: 43px;
@@ -81,7 +96,7 @@ nav {
 .fas {
     display: none;
     color: $white;
-    margin-top: 65px;
+    margin-top: 10px;
 }
 
 .checkbtn {

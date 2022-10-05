@@ -1,47 +1,71 @@
 .footers {
     background: $woodsmoke;
     padding: 57px 0 88px 0;
+
     &__logo {
         width: 137px;
         height: 43px;
         margin-bottom: 33px;
     }
+
     &__info {
         color: #959595;
         font-size: 14px;
+        margin-bottom: 50px;
+
+        @include media-breakpoint-up(lg) {
+            margin-bottom: 0;
+        }
     }
+
     &__contact {
         color: $white;
         font-size: 24px;
         margin-bottom: 30px;
     }
+
     &__address {
         color: #636464;
         font-size: 14px;
         margin-bottom: 38px;
     }
+
     &__number {
         color: #636464;
         font-size: 14px;
     }
+
     &__email {
         color: $blue;
         font-size: 14px;
     }
 }
+
 .footers {
     li {
         margin-bottom: 16px;
+
         a {
             color: $dove-gray;
             font-size: 16px;
             text-decoration: none;
         }
     }
+
     &__list1 {
-        padding-left: 60px; 
+        margin-bottom: 50px;
+
+        @include media-breakpoint-up(lg) {
+            padding-left: 60px;
+            margin-bottom: 0;
+        }
     }
 
-  
- 
+    &__list2 {
+        margin-bottom: 50px;
+
+        @include media-breakpoint-up(lg) {
+            margin-bottom: 0;
+        }
+    }
 }
