@@ -11,7 +11,8 @@ $colors: (
   gallery: #EBEBEB,
   dove-gray: #696969,
   woodsmoke: #161b1d,
-  cloud: #c7c5c1
+  cloud: #c7c5c1,
+  shadow: #1e2d2b
 );
 
 $size: ( 
@@ -46,6 +47,8 @@ $gallery: map-get($colors, gallery);
 $dove-gray: map-get($colors, dove-gray);
 $woodsmoke: map-get($colors, woodsmoke);
 $cloud: map-get($colors, cloud);
+$shadow: map-get($colors, shadow);
+
 
 
 $regular: map-get($font-weight, regular);

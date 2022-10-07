@@ -80,7 +80,11 @@ nav {
 
 .logo {
     flex-shrink: 0;
-    margin-top: 65px;
+    margin-top: 50px;
+
+    @include media-breakpoint-up(lg){
+        margin-top: 65px;
+    }
 
     .sticky & {
         margin-top: 0;

@@ -1,5 +1,4 @@
 .banner {
-    // overflow: hidden;
     position: relative;
     height: 400px;
 
@@ -34,13 +33,11 @@
         justify-content: center;
         flex-direction: column;
 
-
         &__title {
             font-family: $Gothic-Regular;
-            @include font-size-custom(35px);
-           
+            text-shadow: 2px 5px $shadow;
+            font-size: 40px;
             color: $white;
-
             margin-bottom: 20px;
             font-weight: $bold;
 
@@ -51,7 +48,7 @@
         }
 
         &__subtitle {
-            font-size: 15px;
+            font-size: 14px;
             font-family: $Open-sans;
             color: $white;
 
