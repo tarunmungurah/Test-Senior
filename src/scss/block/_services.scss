@@ -19,39 +19,29 @@
 }
 
 .services-item {
-    .fa {
-        margin-top: 15px;
-    }
 
+    padding: 64px 0 45px 0;
     position: relative;
     border: 1px solid $blue;
     border-radius: 50%;
     aspect-ratio: 1 / 1;
-    width: 262px;
-    height: 262px;
-    margin-bottom: 50px;
+    width: 264px;
+    height: 264px;
+    margin-bottom: 60px;
     margin-left: auto;
     margin-right: auto;
 
-    @include media-breakpoint-up(lg) {
-        margin-bottom: 0;
-        width: 216px;
-        height: 216px;
+    .fa {
+        margin-top: 15px;
     }
 
     &__type {
         font-size: 18px;
         font-family: $Open-sans;
         color: $tuatara;
-        margin-bottom: 18px;
-        font-weight: $bold;
-        margin-top: 62px;
-
-        @include media-breakpoint-up(lg) {
-            font-size: 16px;
-            margin-bottom: 18px;
-            margin-top: 35px;
-        }
+        margin-bottom: 35px;
+        font-weight: 700;
+        // margin-top: 62px;
     }
 
     &__text {
@@ -60,11 +50,6 @@
         color: $tuatara;
         margin-bottom: 43px;
         padding: 0 15px;
-
-        @include media-breakpoint-up(lg) {
-            font-size: 13px;
-            margin-bottom: 15px;
-        }
     }
 
     &__icons {
@@ -83,7 +68,6 @@
         left: 0;
         right: 0;
         margin: 0 auto;
-    }
 
-    @include media-breakpoint-up(lg) {}
+    }
 }
