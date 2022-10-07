@@ -1,7 +1,7 @@
 a {
     color: $white;
     text-decoration: none;
-    margin-right: 8px;
+
 }
 
 header {
@@ -14,6 +14,9 @@ header {
 
 .header-top {
     background: $black;
+    height: 31px;
+    display: flex;
+    align-items: center;
 }
 
 .top-nav {
@@ -21,12 +24,39 @@ header {
     justify-content: flex-end;
     font-size: 12px;
 
+    .fa {
+        margin-right: 5px;
+    }
+
     &__list {
         color: $white;
         list-style: none;
-        display: inline-block;
-        border-right: 1px solid $tundora;
-        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        margin-right: 8px;
+
+        &::before {
+            content: "";
+            width: 1px;
+            height: 31px;
+            display: inline-block;
+            background: $tundora;
+            margin-right: 10px;
+        }
+
+        &:last-child{
+            margin-right: 0;
+            &::after{
+                content: "";
+                width: 1px;
+                height: 31px;
+                display: inline-block;
+                background: $tundora;
+                margin-left: 10px;
+            }  
+        }
+     
     }
 
     &__list1 {

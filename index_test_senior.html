@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> -->
     <link href="dist/css/main.min.css" rel="stylesheet">
     <title>Test Senior</title>
 </head>
@@ -14,8 +14,8 @@
     <header>
         <div class="header-top">
             <div class="container">
-                <div class="top-nav">
-                    <li class="top-nav__list1">
+                <ul class="top-nav">
+                    <li class="top-nav__list">
                         <a href="#" class="top-nav__link"> <i class="fa fa-mobile"></i>+230 52 93 51 11</a>
                     </li>
                     <li class="top-nav__list">
@@ -24,7 +24,7 @@
                     <li class="top-nav__list">
                         <a href="#" class="top-nav__link">Register</a>
                     </li>
-                </div>
+                </ul>
             </div>
         </div>
         <nav>
@@ -51,12 +51,13 @@
     </header>
     <div class="banner">
         <picture>
-            <source media="(min-width: 650px)" srcset="/dist/images/dog.jpg">
-            <source media="(min-width: 430px)" srcset="/dist/images/dog.jpg">
+            <source media="(min-width: 650px)" srcset="dist/images/dog.jpg">
+            <source media="(min-width: 430px)" srcset="dist/images/dog.jpg">
             <img src="dist/images/dog.jpg" width="1600" height="700">
         </picture>
-        <div class="container">
-            <div class="row">
+        <div class="container banner__container">
+
+            <div class="row banner__row">
                 <div class="col-lg-6">
                     <div class="banner-text">
                     <h1 class="banner-text__title">L’agence digitale <br> offshore</h1>
@@ -192,8 +193,8 @@
             <div class="row g-0">
                 <div class="col-lg-6">
                     <picture>
-                        <source media="(min-width: 650px)" srcset="/dist/images/latest-news.png">
-                        <source media="(min-width: 430px)" srcset="/dist/images/latest-news.png">
+                        <source media="(min-width: 650px)" srcset="dist/images/latest-news.png">
+                        <source media="(min-width: 430px)" srcset="dist/images/latest-news.png">
                         <img src="dist/images/latest-news.png" class="latest-news__img">
                     </picture>
                     

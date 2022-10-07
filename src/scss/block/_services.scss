@@ -19,17 +19,16 @@
 }
 
 .services-item {
-
-    padding: 30px 0 45px 0;
     position: relative;
     border: 1px solid $blue;
     border-radius: 50%;
     aspect-ratio: 1 / 1;
     width: 264px;
     height: 264px;
-    margin-bottom: 60px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     .fa {
         margin-top: 15px;
@@ -39,9 +38,8 @@
         font-size: 18px;
         font-family: $Open-sans;
         color: $tuatara;
-        margin-bottom: 35px;
+        margin-bottom: 18px;
         font-weight: 700;
-
         // margin-top: 62px;
     }
 
@@ -49,7 +47,7 @@
         font-size: 14px;
         font-family: $Open-sans;
         color: $tuatara;
-        margin-bottom: 43px;
+        margin-bottom: 35px;
         padding: 0 15px;
     }
 
@@ -69,6 +67,5 @@
         left: 0;
         right: 0;
         margin: 0 auto;
-
     }
 }

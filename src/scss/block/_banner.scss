@@ -1,7 +1,12 @@
 .banner {
     // overflow: hidden;
     position: relative;
-    height: auto;
+    height: 400px;
+
+    &__container,
+    &__row {
+        height: 100%;
+    }
 
     @include media-breakpoint-up(lg) {
         height: 700px;
@@ -24,19 +29,20 @@
 
     .banner-text {
         position: relative;
-        bottom: 50px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
 
-        @include media-breakpoint-up(lg) {
-            bottom: 0;
-        }
 
         &__title {
-            font-family: $Open-sans;
-            font-size: 35px;
+            font-family: $Gothic-Regular;
+            @include font-size-custom(35px);
+           
             color: $white;
-            margin-top: 220px;
+
             margin-bottom: 20px;
-            font-weight: 700;
+            font-weight: $bold;
 
             @include media-breakpoint-up(lg) {
                 font-size: 72px;
