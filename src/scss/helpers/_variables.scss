@@ -12,7 +12,8 @@ $colors: (
   dove-gray: #696969,
   woodsmoke: #161b1d,
   cloud: #c7c5c1,
-  shadow: #1e2d2b
+  shadow: #1e2d2b,
+  corduroy: #636464
 );
 
 $size: ( 
@@ -48,6 +49,8 @@ $dove-gray: map-get($colors, dove-gray);
 $woodsmoke: map-get($colors, woodsmoke);
 $cloud: map-get($colors, cloud);
 $shadow: map-get($colors, shadow);
+$corduroy: map-get($colors, corduroy);
+
 
 
 
