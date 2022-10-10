@@ -1,7 +1,6 @@
 a {
     color: $white;
     text-decoration: none;
-
 }
 
 header {
@@ -46,18 +45,18 @@ header {
             margin-right: 10px;
         }
 
-        &:last-child{
+        &:last-child {
             margin-right: 0;
-            &::after{
+
+            &::after {
                 content: "";
                 width: 1px;
                 height: 31px;
                 display: inline-block;
                 background: $tundora;
                 margin-left: 10px;
-            }  
+            }
         }
-     
     }
 
     &__list1 {

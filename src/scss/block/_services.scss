@@ -47,10 +47,15 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin: 0 auto 60px;
+        margin: 10% auto 60px;
+
+        .arrow {
+            color: $black;
+            font-size: 10px;
+        }
        
         @include media-breakpoint-up(lg) {
-            margin: 0px;
+           // margin: 0px;
         }
 
 
