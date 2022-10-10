@@ -16,20 +16,20 @@
 }
 
 .news {
-    padding: 86px 32px;
+    padding: 86px 35px 67px 35px;
 
     &__title {
         font-family: $Open-sans;
         color: $blue;
         font-size: 36px;
-        margin-bottom: 61px;
+        margin-bottom: 60px;
     }
 
     &__subtitle {
         font-family: $Open-sans;
         color: $grey;
         font-size: 13px;
-        margin-bottom: 53px;
+        margin-bottom: 51px;
         max-width: 581px;
 
         @include media-breakpoint-up(lg) {
