@@ -4,10 +4,14 @@
     width: 100%;
     height: auto;
     background-size: cover;
-    position: relative; 
+    position: relative;
     z-index: 1;
 
-    &::after{
+    &__container {
+        max-width: 1025px;
+    }
+
+    &::after {
         content: "";
         position: absolute;
         top: 0;
@@ -27,35 +31,39 @@
         font-weight: $bold;
         margin: 0 0 29px 0;
     }
+
     &__subtitle {
         font-family: $Open-sans;
         color: $white;
         font-size: 16px;
         margin-bottom: 36px;
     }
-    &__card-type {
+}
+
+.card {
+    background-color: $white;
+    margin-bottom: 50px;
+
+    @include media-breakpoint-up(lg) {
+        margin-bottom: 0;
+    }
+
+    &__type {
         font-family: $Open-sans;
         color: $blue;
         font-size: 24px;
         padding: 0 0 26px 23px;
     }
-    &__card-text {
+
+    &__text {
         font-family: $Open-sans;
         color: $tuatara;
         font-size: 16px;
         padding: 0 0 50px 23px;
     }
+
     .card-img-top {
         height: 235px;
         margin-bottom: 20px;
-    }
-    .card {
-        background-color: $white;
-        margin-bottom: 50px;
-
-        @include media-breakpoint-up(lg) {
-            margin-bottom: 0;        
-        }
-
     }
 }

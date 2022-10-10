@@ -30,6 +30,7 @@
         color: $grey;
         font-size: 13px;
         margin-bottom: 53px;
+        max-width: 581px;
 
         @include media-breakpoint-up(lg) {
             font-size: 16px;
