@@ -1,15 +1,17 @@
 .banner {
     overflow: hidden;
     position: relative;
-    height: 400px;
+    //  height: 400px;
+    padding: 150px 0 100px 0;
+
+    @include media-breakpoint-up(lg) {
+        //  height: 700px;
+        padding: 238px 0 260px 0;
+    }
 
     &__container,
     &__row {
         height: 100%;
-    }
-
-    @include media-breakpoint-up(lg) {
-        height: 700px;
     }
 
     picture {
