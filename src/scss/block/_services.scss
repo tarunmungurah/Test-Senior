@@ -3,7 +3,6 @@
     border-top: 4px solid $blue;
     position: relative;
     padding: 62px 0 66px 0;
-
     &:before {
         content: "";
         width: 0;
@@ -16,7 +15,6 @@
         left: 50%;
         transform: translateX(-50%);
     }
-
     &__title {
         margin: 0 0 21px 0;
         font-family: $Open-sans;
@@ -25,7 +23,6 @@
         text-transform: uppercase;
         font-weight: 700;
     }
-
     &__subtitle {
         font-family: $Open-sans;
         color: $tundora;
@@ -33,7 +30,6 @@
         margin-bottom: 75px;
     }
 }
-
 .services-item {
     position: relative;
     border: 1px solid $blue;
@@ -46,29 +42,18 @@
     flex-direction: column;
     justify-content: center;
     margin: 10% auto 60px;
-
     .arrow {
         color: $black;
         font-size: 10px;
     }
-
-    @include media-breakpoint-up(lg) {
-        // margin: 0px;
-    }
-
-    .fa {
-        margin-top: 15px;
-    }
-
+   
     &__type {
         font-size: 18px;
         font-family: $Open-sans;
         color: $tuatara;
         margin-bottom: 18px;
         font-weight: 700;
-        // margin-top: 62px;
     }
-
     &__text {
         font-size: 14px;
         font-family: $Open-sans;
@@ -76,7 +61,6 @@
         margin-bottom: 35px;
         padding: 0 15px;
     }
-
     &__icons {
         width: 64px;
         height: 64px;
@@ -87,7 +71,6 @@
         background-color: $blue;
         font-size: 30px;
         border-radius: 50%;
-        display: block;
         position: absolute;
         top: -35px;
         left: 0;
